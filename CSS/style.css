@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 70px;
+    background-color: rgb(44, 64, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-utilities{
+    display: flex;
+    height: 50%;
+    width: 90%;
+    justify-content:space-between;
+}
+
+.navbar-container{
+ width: 100%;
+ height: 100%;
+ 
+}
+
+.nav-link{
+    display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        padding: 4px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 6px;
+
+}
+
+.nav-login{
+    display: flex;
+        align-items: center;
+    justify-content: flex-end;
+    padding: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* intro section  */
+
+.first-container{
+    background-image: url(/img/jumbo.png) ;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 60px 0;
+}
+
+.first-box{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.initial-title{
+    padding: 20px 0 0 0;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+.initial-introduction{
+    padding: 20px 60px 20px 60px;
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.button-container{
+    display: flex;
+    margin: 6px 0 60px 0;
+}
+
+.divider{
+    display: inline-block;
+    margin: 0 6px 0 6px;
+}
+
+.mac-download{
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.browser-opening{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: black;
+    padding: 12px;
+    border-radius: 20px;
+}
+    
+/* intro section end*/
+
+.container{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey-color{
+    background-color: rgb(199, 193, 193);
+}
+
