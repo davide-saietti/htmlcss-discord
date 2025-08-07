@@ -115,14 +115,94 @@ a{
     
 /* intro section end*/
 
+.box1{
+
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+
+}
+.box2{
+
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+
+}
+.box3{
+
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+
+}
+.box4{
+
+
+        background-image: linear-gradient(rgba(255, 255, 255, 0.692), rgba(255, 255, 255, 0.623)), url(/img/wave.svg);
+
+    background-position: flex-start;
+    background-size: 280%;
+
+}
+
+.end-section{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+
+.end-section h2{
+    font-size: 40px;
+    margin: 10px;
+}
+.end-section p{
+    width: 700px;
+    text-align: center;
+}
+
+.element-b h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.element-b > p{
+    font-size: 16px;
+}
+
 .container{
-    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .grey-color{
-    background-color: rgb(199, 193, 193);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.692), rgba(255, 255, 255, 0.623)), url(/img/wave.svg);
+    padding: 80px;
+    background-position: flex-start;
+    background-size: 280%;
+    
+
+  
+}
+
+.element-a h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.element-a > p{
+    font-size: 16px;
 }
 
